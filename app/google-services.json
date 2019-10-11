@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "575638883173",
+    "firebase_url": "https://smartlens-c1b3e.firebaseio.com",
+    "project_id": "smartlens-c1b3e",
+    "storage_bucket": "smartlens-c1b3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575638883173:android:ce94946a0e6fa878",
+        "android_client_info": {
+          "package_name": "com.muhtasim.fuadrafid.smartlens"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575638883173-olem7g1uq3hj4v52upll0hubshhioc7i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.muhtasim.fuadrafid.smartlens",
+            "certificate_hash": "a8a4e724719683f1acb1d0b03fbeefb99f4afafc"
+          }
+        },
+        {
+          "client_id": "575638883173-r229frvke2rh6sijepho3vpsmmpr4qfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb1KHt908gSb7q8fKydoN0McmxZr4dcJo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "575638883173-r229frvke2rh6sijepho3vpsmmpr4qfk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

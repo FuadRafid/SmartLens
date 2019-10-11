@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/animationLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.muhtasim.fuadrafid.smartlens.activities.AnimationFragment">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        >
+        <ImageView
+            android:id="@+id/phoneImage"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:padding="16dp"
+            android:src="@drawable/phoneportrait"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/anim_text"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            style="@style/ShadowText2"
+            android:textStyle="bold"
+            android:padding="10dp"
+            />
+    </LinearLayout>
+
+</FrameLayout>

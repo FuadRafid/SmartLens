@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.muhtasim.fuadrafid.smartlens.activities.LoginActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+<RelativeLayout
+    android:id="@+id/initLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.muhtasim.fuadrafid.smartlens.activities.LoginActivity"
+    >
+<LinearLayout
+    android:layout_width="188dp"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical"
+    android:id="@+id/startPage"
+    android:layout_margin="20dp"
+    android:weightSum="1">
+    <ImageView
+        android:layout_width="188dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/icontry"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:alpha="100"
+        android:text="@string/title"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/googleSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@drawable/common_google_signin_btn_text_light_normal"
+        android:text="@string/google_login"
+        android:layout_marginTop="60dp"
+        android:textAllCaps="false"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/fb_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="15dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/offlineUseBtn"
+        style="@style/ShadowText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_back"
+        android:padding="2dp"
+        android:text="@string/use_offline"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+</RelativeLayout>
+</ScrollView>

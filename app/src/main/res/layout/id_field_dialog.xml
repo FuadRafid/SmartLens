@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="@string/name_of_fieldtxt"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/fieldNameEt"
+        android:padding="10dp"
+        android:background="@drawable/editext_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:text="@string/contents"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/fieldContentEt"
+
+        android:padding="10dp"
+        android:background="@drawable/editext_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/saveFieldButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_field"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_back"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

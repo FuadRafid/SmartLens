@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+    defaultConfig {
+        applicationId "com.muhtasim.fuadrafid.smartlens"
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 33
+        versionName "1.25.8"
+    }
+}
+
+repositories {
+
+    maven { url "https://jitpack.io" }
+}
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:28.0.0'
+    compile 'com.android.support:exifinterface:28.0.0'
+    compile 'com.android.support:cardview-v7:28.0.0'
+    compile 'com.android.support:customtabs:28.0.0'
+    compile 'com.google.android.gms:play-services-vision:11.8.0'
+    compile 'com.android.support:design:28.0.0'
+    compile 'com.google.firebase:firebase-auth:11.8.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.google.firebase:firebase-database:11.8.0'
+    compile 'com.google.android.gms:play-services-auth:11.8.0'
+    compile 'com.snatik:storage:2.1.0'
+    compile 'com.facebook.android:facebook-android-sdk:4.28.0'
+    compile 'com.android.support:support-v4:28.0.0'
+    compile 'com.theartofdev.edmodo:android-image-cropper:2.5.0'
+    compile 'com.github.jrvansuita:PickImage:+'
+    testCompile 'junit:junit:4.12'
+}
+
+apply plugin: 'com.google.gms.google-services'

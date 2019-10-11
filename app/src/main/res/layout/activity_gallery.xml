@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".activities.GalleryImageActivity"
+    >
+
+    <ImageView
+        android:src="@drawable/sampleimage"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerInside"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        android:id="@+id/image_view" />
+    <Button
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_back"
+        android:padding="10dp"
+        android:text="@string/process"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_process"
+        android:layout_weight="1"
+        style="@style/ShadowText2"
+        />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="operators">
+        <item>GrameenPhone</item>
+        <item>Banglalink</item>
+        <item>TeleTalk</item>
+        <item>Robi</item>
+        <item>Airtel</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="fileTypes">
+        <item>txt</item>
+        <item>doc</item>
+    </string-array>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:id="@+id/Profile"
+            android:title="@string/profile"
+            android:icon="@drawable/profileicon"
+            android:onClick="ShowProfile"
+           />
+        <item android:id="@+id/LogIn"
+            android:title="@string/log_in"
+            android:icon="@drawable/loginbtn"
+            android:onClick="LogIn"
+            />
+        <item android:id="@+id/Logout"
+        android:title="@string/log_out"
+        android:icon="@drawable/logoutbtn"
+        android:onClick="LogOut"
+        />
+        <item android:id="@+id/deleteAcc"
+            android:title="@string/delete_account"
+            android:icon="@drawable/delacc"
+            android:onClick="DeleteAccount"
+            />
+        <item android:id="@+id/goToDatabase"
+                android:title="@string/my_files"
+                android:icon="@drawable/ic_file_primary_24dp"
+                android:onClick="goToDatabase"/>
+        <item android:id="@+id/showAboutInfo"
+                android:title="@string/developer_info"
+                android:icon="@drawable/aboutus"
+                android:onClick="ShowAboutUs"
+            />
+        <item android:id="@+id/policy"
+            android:title="@string/privacy_policy"
+            android:icon="@drawable/aboutus"
+            android:onClick="ShowPrivacyPolicy"
+            />
+
+
+
+</menu>
